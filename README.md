@@ -1,3 +1,31 @@
+# Vehicle's Driver Detection
+
+In this project we are developing a system to detect driver’s motion in an image taken from inside the car using camera on the dashboard.
+This project uses Convolutional Neural Networks to train the model to classify the images into 10 different categories : c0 -  safe driving c1 - texting (right) c2 - talking on the phone (right) c3 - texting (left) c4 - talking on the phone (left) c5 - operating the radio c6 - drinking c7 - reaching behind c8 - hair and makeup c9 - talking to passenger
+
+# Dataset
+
+https://www.kaggle.com/c/state-farm-distracted-driver-detection/data
+
+2D dashboard camera images where the driver’s actions are captured from passanger seat’s POV.
+
+Training set - 15698 images
+Validation set -3363 images
+Test set - 3364 images
+
+# CNN Model
+
+Software Packages used - Caffe
+Pre-trained model - Alexnet trained on ImageNet Dataset
+Trained the model after fine-tuning on our train-set and validation-set for 100,000 iterations
+Final model - 90000 iteration
+
+# Observations
+
+The accuracy of the model increased from 56% to 99.43% when weights from pretrained AlexNet model were used. By testing the images covered with patches it was observed the features learned were accurate. Images that in which irrelevant portion was covered, were classified correctly even after adding a patch. Whereas one of the images shows the classification wrong because a crucial part of the image was hidden. This image when tested without patch was classified correctly.
+Also, it was observed that the dataset was over-fitted to the angle at which the images were taken and maybe to the 10 drivers that constituted the train-set. Since the original test set and train set have similar drivers the accuracy is very high but it dropped drastically when new driver images are tested.
+To reduce the over-fitting problem model should be fine- tuned on a much more diverse dataset.
+
 # Caffe
 
 [![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)
