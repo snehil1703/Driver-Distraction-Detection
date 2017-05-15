@@ -1,0 +1,28 @@
+Resizing test images...
+aprun python python/classify.py --pretrained_model=models/fp-mini/fp-mini_iter_30000.caffemodel --model_def=models/fp-mini/deploy.prototxt --mean_file=data/ilsvrc12/imagenet_mean.npy --gpu data/fp-mini/fp-mini.test-227.test.txt fp-mini-out.txt
+GPU mode
+Loading file: data/fp-mini/fp-mini.test-227.test.txt
+Classifying 15 inputs.
+Done in 0.94 s.
+Saving results into fp-mini-out.txt
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c0/img_8415.jpg 0 5 0.275705
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c2/img_52228.jpg 2 5 0.275705
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c6/img_65982.jpg 6 5 0.275705
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c8/img_3735.jpg 8 5 0.275705
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c5/img_66479.jpg 5 5 0.275705
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c1/img_115.jpg 1 5 0.275705
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c9/img_20372.jpg 9 5 0.275705
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c1/img_75822.jpg 1 5 0.275705
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c4/img_24044.jpg 4 5 0.275705
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c4/img_75998.jpg 4 5 0.275705
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c3/img_58834.jpg 3 5 0.275705
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c1/img_21184.jpg 1 5 0.275705
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c6/img_93912.jpg 6 5 0.275705
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c3/img_66513.jpg 3 5 0.275705
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c3/img_12346.jpg 3 5 0.275705
+Application 8048622 resources: utime ~4s, stime ~6s, Rss ~816188, inblocks ~496118, outblocks ~66
+Job Cleanup ran on Sun Apr 23 21:25:45 EDT 2017
+===============================
+submit_args  : 	 submit_args = test_job.sh
+NIDS         : 	 574
+NID Placement: 	 574/1 

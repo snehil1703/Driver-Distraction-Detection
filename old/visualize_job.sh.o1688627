@@ -1,0 +1,7 @@
+Application 8063984 exit codes: 1
+Application 8063984 resources: utime ~3s, stime ~5s, Rss ~807556, inblocks ~488704, outblocks ~62
+Job Cleanup ran on Sun Apr 30 20:44:23 EDT 2017
+===============================
+submit_args  : 	 submit_args = visualize_job.sh
+NIDS         : 	 196-197
+NID Placement: 	 196/16 197/16 

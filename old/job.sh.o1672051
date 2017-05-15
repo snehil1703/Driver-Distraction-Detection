@@ -1,0 +1,12 @@
+Job Cleanup ran on Wed Apr 12 21:29:38 EDT 2017
+===============================
+submit_args  : 	 submit_args = job.sh
+NIDS         : 	 
+NID Placement: 	 
+Application 7965355 exit codes: 143
+Application 7965355 resources: utime ~61116s, stime ~7554s, Rss ~1654308, inblocks ~864374070, outblocks ~8008909
+Job Cleanup ran on Thu Apr 13 17:31:39 EDT 2017
+===============================
+submit_args  : 	 submit_args = job.sh
+NIDS         : 	 538
+NID Placement: 	 538/1 

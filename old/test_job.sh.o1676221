@@ -1,0 +1,9 @@
+Refusing to overwrite images-227.
+aprun python python/classify.py --pretrained_model=models/finalproject/finalproject_iter_90000.caffemodel --model_def=models/finalproject/deploy.prototxt --mean_file=data/ilsvrc12/imagenet_mean.npy --gpu data/finalproject/finalproject.test-227.test.txt finalproject-out.txt
+Application 7999617 exit codes: 1
+Application 7999617 resources: utime ~0s, stime ~1s, Rss ~15812, inblocks ~11755, outblocks ~28
+Job Cleanup ran on Sun Apr 16 18:11:55 EDT 2017
+===============================
+submit_args  : 	 submit_args = test_job.sh
+NIDS         : 	 182
+NID Placement: 	 182/1 

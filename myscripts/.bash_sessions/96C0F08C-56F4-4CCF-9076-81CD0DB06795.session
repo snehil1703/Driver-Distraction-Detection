@@ -1,0 +1,1 @@
+echo Restored session: "$(date -r 1491023288)"

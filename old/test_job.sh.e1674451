@@ -1,0 +1,12 @@
+OpenCV version 2.4.8 loaded.
+Boost version 1.54.0 loaded.
+Python programming language version 2.7.8 loaded.
+caffe version 20170112 loaded.
+Traceback (most recent call last):
+  File "python/classify.py", line 14, in <module>
+    import caffe
+  File "/N/dc2/scratch/snehvish/caffe/python/caffe/__init__.py", line 1, in <module>
+    from .pycaffe import Net, SGDSolver, NesterovSolver, AdaGradSolver, RMSPropSolver, AdaDeltaSolver, AdamSolver
+  File "/N/dc2/scratch/snehvish/caffe/python/caffe/pycaffe.py", line 13, in <module>
+    from ._caffe import Net, SGDSolver, NesterovSolver, AdaGradSolver, \
+ImportError: No module named _caffe

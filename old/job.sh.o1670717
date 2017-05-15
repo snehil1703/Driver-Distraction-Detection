@@ -1,0 +1,7 @@
+Application 7956518 exit codes: 143
+Application 7956518 resources: utime ~61589s, stime ~7427s, Rss ~1654092, inblocks ~870940985, outblocks ~8008946
+Job Cleanup ran on Tue Apr 11 17:26:16 EDT 2017
+===============================
+submit_args  : 	 submit_args = job.sh
+NIDS         : 	 440
+NID Placement: 	 440/1 

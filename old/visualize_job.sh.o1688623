@@ -1,0 +1,6 @@
+Application 8063975 resources: utime ~15s, stime ~6s, Rss ~1166068, inblocks ~488824, outblocks ~6071
+Job Cleanup ran on Sun Apr 30 20:20:09 EDT 2017
+===============================
+submit_args  : 	 submit_args = visualize_job.sh
+NIDS         : 	 274,590
+NID Placement: 	 274/16 590/16 

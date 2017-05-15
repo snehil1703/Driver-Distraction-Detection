@@ -1,0 +1,7 @@
+Application 8064381 exit codes: 134
+Application 8064381 resources: utime ~67s, stime ~11s, Rss ~3452432, inblocks ~465257, outblocks ~426
+Job Cleanup ran on Mon May 1 01:09:53 EDT 2017
+===============================
+submit_args  : 	 submit_args = job.sh
+NIDS         : 	 161
+NID Placement: 	 161/1 

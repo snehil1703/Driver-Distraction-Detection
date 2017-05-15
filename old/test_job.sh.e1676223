@@ -1,0 +1,12 @@
+OpenCV version 2.4.8 loaded.
+Boost version 1.54.0 loaded.
+Python programming language version 2.7.8 loaded.
+caffe version 20170112 loaded.
+Traceback (most recent call last):
+  File "python/classify.py", line 138, in <module>
+    main(sys.argv)
+  File "python/classify.py", line 95, in main
+    mean = np.load(args.mean_file)
+  File "/N/soft/cle4/python/2.7.8/lib/python2.7/site-packages/numpy/lib/npyio.py", line 362, in load
+    fid = open(file, "rb")
+IOError: [Errno 2] No such file or directory: 'data/ilsvrc12/imagenet_mean.npy'

@@ -1,0 +1,33 @@
+Job Cleanup ran on Sun Apr 23 20:29:08 EDT 2017
+===============================
+submit_args  : 	 submit_args = test_job.sh
+NIDS         : 	 
+NID Placement: 	 
+Resizing test images...
+aprun python python/classify.py --pretrained_model=models/finalproject/finalproject_iter_90000.caffemodel --model_def=models/finalproject/deploy.prototxt --mean_file=data/ilsvrc12/imagenet_mean.npy --gpu data/fp-mini/fp-mini.test-227.test.txt fp-mini-out_finalproject.txt
+GPU mode
+Loading file: data/fp-mini/fp-mini.test-227.test.txt
+Classifying 15 inputs.
+Done in 0.95 s.
+Saving results into fp-mini-out_finalproject.txt
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c0/img_8415.jpg 0 0 14.1785
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c2/img_52228.jpg 2 2 15.8733
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c6/img_65982.jpg 6 6 15.1102
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c8/img_3735.jpg 8 8 11.5217
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c5/img_66479.jpg 5 5 16.2312
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c1/img_115.jpg 1 1 16.0436
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c9/img_20372.jpg 9 9 16.2914
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c1/img_75822.jpg 1 1 13.749
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c4/img_24044.jpg 4 4 15.4184
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c4/img_75998.jpg 4 4 14.5487
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c3/img_58834.jpg 3 3 16.1594
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c1/img_21184.jpg 1 1 12.2417
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c6/img_93912.jpg 6 6 13.6352
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c3/img_66513.jpg 3 3 15.8949
+/N/dc2/scratch/snehvish/caffe/data/fp-mini/images-227/c3/img_12346.jpg 3 3 16.001
+Application 8048587 resources: utime ~4s, stime ~5s, Rss ~816196, inblocks ~496150, outblocks ~67
+Job Cleanup ran on Sun Apr 23 20:30:29 EDT 2017
+===============================
+submit_args  : 	 submit_args = test_job.sh
+NIDS         : 	 473
+NID Placement: 	 473/1 

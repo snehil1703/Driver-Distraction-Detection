@@ -1,0 +1,12 @@
+Refusing to overwrite images-227.
+/N/dc2/scratch/snehvish/caffe/data/finalproject/images-227/c8/img_19204.jpg is missing in 1000
+aprun python python/classify.py --model_def=models/fp1/deploy.prototxt --gpu data/fp1/fp1.test-227.test.txt fp1-out.txt
+GPU mode
+Loading file: data/fp1/fp1.test-227.test.txt
+Application 8064999 exit codes: 1
+Application 8064999 resources: utime ~3s, stime ~5s, Rss ~816228, inblocks ~495883, outblocks ~63
+Job Cleanup ran on Mon May 1 02:55:41 EDT 2017
+===============================
+submit_args  : 	 submit_args = test_job_fp1.sh
+NIDS         : 	 427
+NID Placement: 	 427/1 
